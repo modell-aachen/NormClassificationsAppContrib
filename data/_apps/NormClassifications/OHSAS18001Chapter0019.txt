@@ -1,0 +1,9 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1417020843" format="1.1" version="1"}%
+
+%META:FORM{name="ChapterForm"}%
+%META:FIELD{name="Number" attributes="M" title="Number" value="4.5.4"}%
+%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value="Control of records"}%
+%META:FIELD{name="HeadingDE" attributes="" title="HeadingDE" value="Lenkung von Aufzeichnungen"}%
+%META:FIELD{name="Relevant" attributes="" title="Relevant" value="yes"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="ChapterView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="ChapterEdit"}%

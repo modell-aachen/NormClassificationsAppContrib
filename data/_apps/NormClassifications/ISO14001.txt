@@ -1,0 +1,8 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1417000578" format="1.1" version="1"}%
+%META:TOPICPARENT{name="WebHome"}%
+
+%META:FORM{name="_apps/NormClassifications.NormForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="ISO 14001"}%
+%META:FIELD{name="Description" attributes="" title="Description" value="Environment / Umwelt"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="NormView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="NormEdit"}%

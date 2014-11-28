@@ -1,0 +1,9 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1416999819" format="1.1" version="1"}%
+
+%META:FORM{name="ChapterForm"}%
+%META:FIELD{name="Number" attributes="M" title="Number" value="4.6.2"}%
+%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value="Evaluation of compliance with legal requirements and other requirements"}%
+%META:FIELD{name="HeadingDE" attributes="" title="HeadingDE" value="Bewertung der Einhaltung rechtlicher Vorschriften und anderer Anforderungen"}%
+%META:FIELD{name="Relevant" attributes="" title="Relevant" value="yes"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="ChapterView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="ChapterEdit"}%

@@ -1,0 +1,32 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1417022153" format="1.1" version="14"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Norm classifications"}%</div>
+<div class="widgetBlockContent">
+<table class="tablesorter">
+<thead>
+<tr><th width="200px;">%MAKETEXT{"Norm"}%</th><th>%MAKETEXT{"Description"}%</th></tr>
+</thead>
+<tbody>
+%SOLRSEARCH{
+"form:*NormForm"
+web="%WEB%"
+fields="web,topic, field_TopicTitle_s, field_Description_s"
+header=""
+format="<tr><td>[[$web.$topic]]</td><td>$field_Description_s</td></tr>"
+footer=""
+rows="99999"
+sort="topic asc"
+}%
+</tbody>
+</table>
+%IF{"'%WIKINAME%' ingroup 'AdminGroup'" then="$percntINCLUDE{\"%TOPIC%\" section=\"createnorm\"}$percnt"}%
+</div>
+
+<div style="display:none">
+%STARTSECTION{"createnorm"}%
+%BUTTON{"%MAKETEXT{"Create new norm"}%" href="%SCRIPTURLPATH{"view"}%/%BASEWEB%/WebCreateNewTopic?topicparent=WebHome" class="modacNewLink"}%
+%ENDSECTION{"createnorm"}%
+</div>
+
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="SystemView"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

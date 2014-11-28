@@ -1,0 +1,20 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1416845445" format="1.1" version="1"}%
+ %TMPL:INCLUDE{edit}%
+
+%TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
+%TMPL:P{"formstart"}%%TMPL:P{"formtop"}%
+
+<div class="widgetBlockTitle">%MAKETEXT{"Chapter"}%</div>
+<div class="widgetBlockContent">
+<table class="metaDataHead">
+<tr><td width="200px;">%MAKETEXT{"Number"}%</td><td>%RENDERFOREDIT{field="Number" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"English heading"}%</td><td>%RENDERFOREDIT{field="HeadingEN" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"German heading"}%</td><td>%RENDERFOREDIT{field="HeadingDE" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Relevant"}%</td><td>%RENDERFOREDIT{field="Relevant" format="$edit"}%</td></tr>
+</table>
+</div>
+
+%TMPL:P{"topicinfo"}%
+%TMPL:P{"formend"}%
+
+%TMPL:END%

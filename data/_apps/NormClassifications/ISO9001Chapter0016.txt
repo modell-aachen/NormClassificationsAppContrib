@@ -1,0 +1,9 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1416930764" format="1.1" version="2"}%
+
+%META:FORM{name="ChapterForm"}%
+%META:FIELD{name="Number" attributes="M" title="Number" value="5.5.2"}%
+%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value="Management representative"}%
+%META:FIELD{name="HeadingDE" attributes="" title="HeadingDE" value="Beauftragter der obersten Leitung"}%
+%META:FIELD{name="Relevant" attributes="" title="Relevant" value="yes"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="ChapterView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="ChapterEdit"}%

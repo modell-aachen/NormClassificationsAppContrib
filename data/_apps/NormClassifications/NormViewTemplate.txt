@@ -1,0 +1,74 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1416844037" format="1.1" version="1"}%
+
+%TMPL:INCLUDE{"SystemView"}%
+
+%TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
+
+<div class="widgetBlockTitle">%MAKETEXT{"Norm classification"}%</div>
+<div class="widgetBlockContent">
+%TMPL:P{"showclassifications"}%
+%IF{"'%WIKINAME%' ingroup 'AdminGroup'" then="$percntTMPL:P{managechapters}$percnt"}%
+</div>
+%TMPL:END%
+
+
+%TMPL:DEF{"showclassifications"}%
+<table class="searchTable">
+<tr><th>%MAKETEXT{"Title"}%</th><th>%MAKETEXT{"Description"}%</th></tr>
+<td>%RENDERFORDISPLAY{field="TopicTitle" format="$value"}%</td><td>%RENDERFORDISPLAY{field="Description" format="$value"}%</td></tr>
+</table>
+
+<table class="searchTable">
+<tr> <th style="width:10%;">%MAKETEXT{"Chapter no."}%</th><th width="40%"> %MAKETEXT{"Chapter heading"}%</th> <th> %MAKETEXT{"Page in"}% %WIKITOOLNAME%</th> </tr>
+%SOLRSEARCH{
+"topic:%BASETOPIC%Chapter* field_Relevant_lst:yes"
+web="%WEB%"
+fields="web,topic,field_Number_s,field_TopicTitle_s, field_Relevant_lst, field_HeadingEN_s, field_HeadingDE_s"
+header=""
+format="<tr><td>$field_Number_s</td><td>$field_Heading%CALCULATE{"$UPPER(%LANGUAGE%)"}%_s</td><td>$percntTMPL:P{\"searchchapters\" norm=\"%BASETOPIC%\" chapter=\"$field_Number_s\"}$percnt</td></tr>"
+footer=""
+rows="999999"
+sort="field_Number_s asc"
+}%
+</table>
+%TMPL:END%
+
+%TMPL:DEF{"managechapters"}%
+%TWISTY{
+start="hide"
+noscript="show"
+showlink="%MAKETEXT{"Manage chapters"}%" 
+hidelink="%MAKETEXT{"Manage chapters"}%" 
+showimgleft="%ICONURLPATH{arrow-right}%"
+hideimgleft="%ICONURLPATH{arrow-down}%" 
+linkclass="patternTwistyButton" 
+}%
+%BUTTON{"%MAKETEXT{"Add new chapter"}%" href="%SCRIPTURLPATH{"edit"}%/%BASEWEB%/%BASETOPIC%ChapterAUTOINC0000?template=%WEB%.ChapterEdit;templatetopic=%WEB%.ChapterTemplate;formtemplate=ChapterForm;t=%GMTIME{$epoch}%"}%
+
+<table class="searchTable">
+<tr> <th style="width:10%;">%MAKETEXT{"Chapter no."}%</th><th width="40%">%MAKETEXT{"Chapter heading"}%&nbsp;<img src="%PUBURLPATH%/System/FamFamFamFlagIcons/gb.png" /></th><th>%MAKETEXT{"Chapter heading"}%&nbsp;<img src="%PUBURLPATH%/System/FamFamFamFlagIcons/de.png" /></th><th>%MAKETEXT{"Relevant"}%</th></tr>
+%SOLRSEARCH{
+"topic:%BASETOPIC%Chapter*"
+web="%WEB%"
+fields="web,topic,field_Number_s,field_HeadingEN_s, field_HeadingDE_s, field_Relevant_lst"
+header=""
+format="<tr><td>$field_Number_s</td><td>$field_HeadingEN_s</td><td>$field_HeadingDE_s</td><td>$percntMAKETEXT{\"$field_Relevant_lst\"}$percnt</td><td><a href='%SCRIPTURLPATH{edit}%/$web/$topic?t=%GMTIME{$epoch}%' title='%MAKETEXT{Edit}%'>$percntICON{pencil}$percnt</a></td></tr>"
+footer=""
+rows="999999"
+sort="field_Number_s asc"
+}%
+</table>
+%ENDTWISTY%
+%TMPL:END%
+
+%TMPL:DEF{"searchchapters"}%
+%SOLRSEARCH{
+"field_%norm%_lst:%chapter%"
+header=""
+format="[[$web.$topic]]"
+separator=", "
+footer=""
+rows="99999"
+}%
+%TMPL:END%
+

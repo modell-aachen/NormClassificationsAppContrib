@@ -1,0 +1,10 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1416843772" format="1.1" version="7"}%
+| *Name* | *Type* | *Size* | *Values* | *Tooltip message* | *Attributes* |
+| TopicTitle | text | 50 | | %MAKETEXT{"Title"}% | M |
+| Description | textarea | 50 | | %MAKETEXT{"Description"}% | |
+
+
+
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1416843772" from="_apps/NormClassifications.ChapterForm" to="_apps/NormClassifications.NormForm"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

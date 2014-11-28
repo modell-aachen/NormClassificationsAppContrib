@@ -1,0 +1,8 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1416925301" format="1.1" version="2"}%
+
+%META:FORM{name="NormForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="ISO 9001"}%
+%META:FIELD{name="Description" attributes="" title="Description" value="QM-Norm"}%
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1416924049" from="_apps/NormClassifications.Norm0000" to="_apps/NormClassifications.ISO9001"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="NormView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="NormEdit"}%

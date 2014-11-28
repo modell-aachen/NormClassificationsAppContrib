@@ -1,0 +1,6 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1416844037" format="1.1" version="1"}%
+%TMPL:INCLUDE{"view"}%
+
+%TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
+%REDIRECT{"%SUBST{text="%BASETOPIC%" pattern="Chapter.*" format=""}%"}%
+%TMPL:END%

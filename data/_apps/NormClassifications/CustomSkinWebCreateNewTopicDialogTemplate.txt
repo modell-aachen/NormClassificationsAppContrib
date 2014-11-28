@@ -1,0 +1,20 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1415379197" format="1.1" version="4"}%
+%TMPL:INCLUDE{"WebCreateNewTopic"}%
+
+%{ ################################################################################ }%
+%TMPL:DEF{"dialog"}%<noautolink>
+<div class="modacDialogTitle">%MAKETEXT{"Create new norm"}%</div>
+<div class="modacDialogContents">
+  %TMPL:P{"content"}%<!-- -->
+  %TMPL:P{"javascript"}%<!-- -->
+  %INCLUDE{"%SYSTEMWEB%.ModacAjaxHelper" section="head"}%<!-- head -->
+  %INCLUDE{"%SYSTEMWEB%.ModacAjaxHelper" section="script"}%<!-- script -->
+</div>
+</noautolink>%TMPL:END%
+
+%{ ################################################################################ }%
+%TMPL:DEF{"formbuttons"}%<!-- -->
+  <a class="jqUIDialogButton jqUIDialogSubmit {icon:'ui-icon-circle-check'}">%MAKETEXT{"Create new norm"}%</a>
+  <a class="jqUIDialogButton jqUIDialogClose {icon:'ui-icon-cancel'}">%MAKETEXT{"Cancel"}%</a>
+<!-- -->%TMPL:END%
+

@@ -1,0 +1,18 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1416844088" format="1.1" version="1"}%
+ %TMPL:INCLUDE{edit}%
+
+%TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
+%TMPL:P{"formstart"}%%TMPL:P{"formtop"}%
+
+<div class="widgetBlockTitle">%MAKETEXT{"Norm classification"}%</div>
+<div class="widgetBlockContent">
+<table class="metaDataHead">
+<tr><td width="200px;">%MAKETEXT{"Title"}%</td><td>%RENDERFOREDIT{field="TopicTitle" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Description"}%</td><td>%RENDERFOREDIT{field="Description" format="$edit"}%</td></tr>
+</table>
+</div>
+
+%TMPL:P{"topicinfo"}%
+%TMPL:P{"formend"}%
+
+%TMPL:END%

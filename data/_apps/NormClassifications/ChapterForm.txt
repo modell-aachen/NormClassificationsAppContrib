@@ -1,0 +1,12 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1417005804" format="1.1" version="3"}%
+| *Name* | *Type* | *Size* | *Values* | *Tooltip message* | *Attributes* |
+| Number | text | 50 | | %MAKETEXT{"Number"}% | M |
+| HeadingEN | text | 50 | | %MAKETEXT{"English heading"}% | |
+| HeadingDE | text | 50 | | %MAKETEXT{"German heading"}% | |
+| Relevant | checkbox+values | 1 | %MAKETEXT{"yes"}%=yes | %MAKETEXT{"Relevant"}% | |
+
+
+
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%
