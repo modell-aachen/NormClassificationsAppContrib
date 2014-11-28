@@ -1,10 +1,10 @@
----+!! MinutesAppContrib
+---+!! NormClassificationsAppContrib
 
-Modell Aachen Minutes WikiApp
+Modell Aachen Norm Classifications WikiApp
 
 ---++ Installation
 
-   * The MinutesAppContrib will create a subweb _Minutes_ in _apps.
+   * The NormClassificationsAppContrib will create a subweb _NormClassifications_ in _apps.
    * Move this subweb to where you want and rename it if needed.
    * Reload web-server and restart iwatch.
    * To use the standard app theme of Modell Aachen GmbH:
@@ -16,9 +16,10 @@ Set TABLETHEMEPARAM = headerrows="1" sort="on" tablewidth="100%" tableborder="0"
    * Customize the permissions in the section "Access control" in WebPreferences.
    * Customize further settings as customer asked.
 
+---++AjaxHelper
+There is an AjaxHelper that let's you simple select an defined chapter.
 
-To select an chapter in the document control via select2 please use the NormAjaxHelper
----++Example for form
+---+++Example for form
 <verbatim>
 | *Name* | *Type* | *Size* | *Values* | *Tooltip message* | *Attributes* |
 | ISO9001 | select2+multi | 50 | %SCRIPTURL{view}%/<yournormweb>/NormAjaxHelper?contenttype=text/plain;skin=text;section=norm;norm=ISO9001 | %MAKETEXT{"Norm classification"}% | initUrl="%SCRIPTURL{view}%/<yournormweb>/NormAjaxHelper?section=norm_init;contenttype=text/plain;skin=text;norm=ISO9001" |
