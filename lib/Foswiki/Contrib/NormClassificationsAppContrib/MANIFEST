@@ -1,9 +1,7 @@
 !noci
 data/System/NormClassificationsAppContrib.txt 0644
-data/_apps/NormClassifications/.changes 0644
 data/_apps/NormClassifications/ChapterEditTemplate.txt 0644
 data/_apps/NormClassifications/ChapterForm.txt 0644
-data/_apps/NormClassifications/ChapterTemplate.lease 0644
 data/_apps/NormClassifications/ChapterTemplate.txt 0644
 data/_apps/NormClassifications/ChapterViewTemplate.txt 0644
 data/_apps/NormClassifications/CustomSkinWebCreateNewTopicDialogTemplate.txt 0644
