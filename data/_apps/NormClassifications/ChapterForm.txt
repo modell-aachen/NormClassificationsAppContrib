@@ -4,6 +4,7 @@
 | HeadingEN | text | 50 | | %MAKETEXT{"English heading"}% | |
 | HeadingDE | text | 50 | | %MAKETEXT{"German heading"}% | |
 | Relevant | checkbox+values | 1 | %MAKETEXT{"yes"}%=yes | %MAKETEXT{"Relevant"}% | |
+| ReasonNonRelevant | text | 50 | | %MAKETEXT{"Reason for non-relevant chapters"}% | |
 
 
 

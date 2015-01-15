@@ -11,6 +11,7 @@
 <tr><td>%MAKETEXT{"English heading"}%</td><td>%RENDERFOREDIT{field="HeadingEN" format="$edit"}%</td></tr>
 <tr><td>%MAKETEXT{"German heading"}%</td><td>%RENDERFOREDIT{field="HeadingDE" format="$edit"}%</td></tr>
 <tr><td>%MAKETEXT{"Relevant"}%</td><td>%RENDERFOREDIT{field="Relevant" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Reason (if non-relevant)"}%</td><td>%RENDERFOREDIT{field="ReasonNonRelevant" format="$edit"}%</td></tr>
 </table>
 </div>
 
