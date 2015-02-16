@@ -16,10 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/_apps/NormClassifications/NormViewTemplate.txt
-msgid "$field_Relevant_lst"
-msgstr ""
-
-#: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Add new chapter"
 msgstr ""
 
@@ -97,14 +93,6 @@ msgstr ""
 
 #: data/_apps/NormClassifications/ChapterEditTemplate.txt data/_apps/NormClassifications/ChapterForm.txt data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Relevant"
-msgstr ""
-
-#: data/_apps/NormClassifications/WebAtom.txt data/_apps/NormClassifications/WebRss.txt
-msgid "The %1 web of %2."
-msgstr ""
-
-#: data/_apps/NormClassifications/WebNotify.txt
-msgid "This is a subscription service to be automatically notified by e-mail when topics change in this %1 web. This is a convenient service, so you do not have to come back and check all the time if something has changed. To subscribe, please add a bullet with your %2 in alphabetical order to this list:"
 msgstr ""
 
 #: data/_apps/NormClassifications/NormEditTemplate.txt data/_apps/NormClassifications/NormForm.txt data/_apps/NormClassifications/NormViewTemplate.txt
