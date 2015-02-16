@@ -1,97 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-16 11:57+0200\n"
+"PO-Revision-Date: 2015-02-16 12:02+0200\n"
+"Last-Translator: Modell Aachen <access@modell-aachen.de>\n"
+"Language-Team: German <http://translate.modell-"
+"aachen.de/projects/normclassificationsappcontrib/releasenew-york/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 1.9\n"
+
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "$field_Relevant_lst"
 msgstr ""
 
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Add new chapter"
-msgstr ""
+msgstr "Neues Kapitel hinzufügen"
 
 #: data/_apps/NormClassifications/CustomSkinWebCreateNewTopicDialogTemplate.txt
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #: data/_apps/NormClassifications/ChapterEditTemplate.txt
 msgid "Chapter"
-msgstr ""
+msgstr "Kapitel"
 
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Chapter heading"
-msgstr ""
+msgstr "Kapitelüberschrift"
 
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Chapter no."
-msgstr ""
+msgstr "Kapitelnr."
 
 #: data/_apps/NormClassifications/CustomSkinWebCreateNewTopicDialogTemplate.txt
 #: data/_apps/NormClassifications/WebHome.txt
 msgid "Create new norm"
-msgstr ""
+msgstr "Neue Norm erstellen"
 
 #: data/_apps/NormClassifications/NormEditTemplate.txt
 #: data/_apps/NormClassifications/NormForm.txt
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 #: data/_apps/NormClassifications/WebHome.txt
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: data/_apps/NormClassifications/ChapterEditTemplate.txt
 #: data/_apps/NormClassifications/ChapterForm.txt
 msgid "English heading"
-msgstr ""
+msgstr "Englische Überschrift"
 
 #: data/_apps/NormClassifications/ChapterEditTemplate.txt
 #: data/_apps/NormClassifications/ChapterForm.txt
 msgid "German heading"
-msgstr ""
+msgstr "Deutsche Überschrift"
 
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Manage chapters"
-msgstr ""
+msgstr "Kapitel verwalten"
 
 #: data/_apps/NormClassifications/WebHome.txt
 msgid "Norm"
-msgstr ""
+msgstr "Norm"
 
 #: data/System/NormClassificationsAppContrib.txt
 #: data/_apps/NormClassifications/NormEditTemplate.txt
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Norm classification"
-msgstr ""
+msgstr "Normzuordnung"
 
 #: data/_apps/NormClassifications/WebHome.txt
 msgid "Norm classifications"
-msgstr ""
+msgstr "Normzuordnungen"
 
 #: data/_apps/NormClassifications/ChapterEditTemplate.txt
 #: data/_apps/NormClassifications/ChapterForm.txt
 msgid "Number"
-msgstr ""
+msgstr "Nummer"
 
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Page in"
-msgstr ""
+msgstr "Seite in"
 
 #: data/_apps/NormClassifications/ChapterEditTemplate.txt
 msgid "Reason (if non-relevant)"
-msgstr ""
+msgstr "Grund (falls nicht relevant)"
 
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Reason for irrelevance"
-msgstr ""
+msgstr "Grund für Irrelevanz"
 
 #: data/_apps/NormClassifications/ChapterForm.txt
 msgid "Reason for non-relevant chapters"
-msgstr ""
+msgstr "Grund für nicht relevante Kapitel"
 
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Reason irrelevance"
-msgstr ""
+msgstr "Grund Irrelevanz"
 
 #: data/_apps/NormClassifications/ChapterEditTemplate.txt
 #: data/_apps/NormClassifications/ChapterForm.txt
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Relevant"
-msgstr ""
+msgstr "Relevant"
 
 #: data/_apps/NormClassifications/WebAtom.txt
 #: data/_apps/NormClassifications/WebRss.txt
@@ -106,8 +122,8 @@ msgstr ""
 #: data/_apps/NormClassifications/NormForm.txt
 #: data/_apps/NormClassifications/NormViewTemplate.txt
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: data/_apps/NormClassifications/ChapterForm.txt
 msgid "yes"
-msgstr ""
+msgstr "ja"
