@@ -307,3 +307,8 @@ data/_apps/NormClassifications/WebSearch.txt 0644
 data/_apps/NormClassifications/WebSearchAdvanced.txt 0644
 data/_apps/NormClassifications/WebTopicList.txt 0644
 lib/Foswiki/Contrib/NormClassificationsAppContrib.pm 0644
+locale/NormClassificationsAppContrib/cs.po 0644
+locale/NormClassificationsAppContrib/de.po 0644
+locale/NormClassificationsAppContrib/fr.po 0644
+locale/NormClassificationsAppContrib/it.po 0644
+locale/NormClassificationsAppContrib/zh-cn.po 0644
