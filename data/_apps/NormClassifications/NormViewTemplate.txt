@@ -63,10 +63,10 @@ sort="field_Number_s asc"
 
 %TMPL:DEF{"searchchapters"}%
 %SOLRSEARCH{
-"field_%norm%_lst:%chapter%"
+"field_%norm%_lst:%chapter% -topic:*%WORKFLOWSUFFIX%"
 header=""
-format="[[$web.$topic]]"
-separator=", "
+format="[[$web.$topic]] $percntIF{\"istopic '$webtopic$percntWORKFLOWSUFFIX$percnt'\" then=\" | [[$webtopic$percntWORKFLOWSUFFIX$percnt][<span style=\\"font-size: 75%\\">$dollarpercntICON{comments}$dollarpercnt&nbsp;$percntMAKETEXT{\"Discussion available\"}$percnt</span>]]\"}$percnt"
+separator="%BR%"
 footer=""
 rows="99999"
 }%
