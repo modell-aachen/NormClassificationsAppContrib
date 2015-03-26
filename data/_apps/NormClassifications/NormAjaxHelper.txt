@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="BaseUserMapping_333" comment="pending" date="1417179551" format="1.1" version="20"}%
+%META:TOPICINFO{author="BaseUserMapping_333" comment="pending" date="1427369215" format="1.1" version="24"}%
 <verbatim>
 %STARTSECTION{name="norm"}%{"results":[%SOLRSEARCH{
   "topic:%URLPARAM{"norm"}%Chapter* form:*ChapterForm field_Relevant_lst:yes (field_Number_s:*%URLPARAM{"q" default="?"}%* OR field_Heading%CALCULATE{"$UPPER(%LANGUAGE%)"}%_s:*%SUBST{text="%URLPARAM{"q" default="?"}%" pattern=" " format="?"}%*)"
@@ -9,7 +9,7 @@
 %STARTSECTION{name="norm_init"}%[
 %SOLRSEARCH{
   "field_Number_s:%FORMATLIST{"%URLPARAM{id}%" header="(" footer=")" separator=" OR "}% form:*ChapterForm topic:%URLPARAM{"norm"}%Chapter*"
-  format="{\"id\":\"$webtopic\",\"text\":\"$field_Number_s: $field_Heading%CALCULATE{"$UPPER(%LANGUAGE%)"}%_s\"}"
+  format="{\"id\":\"$field_Number_s\",\"text\":\"$field_Number_s: $field_Heading%CALCULATE{"$UPPER(%LANGUAGE%)"}%_s\"}"
   separator=", "
   sort="topic"
 }%
