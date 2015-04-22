@@ -1,0 +1,8 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1429709162" format="1.1" version="1"}%
+%META:TOPICPARENT{name="WebHome"}%
+
+%META:FORM{name="_apps/NormClassifications.NormForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="ISO 9001 - 2015"}%
+%META:FIELD{name="Description" attributes="" title="Description" value="QM-Norm 2015 (currently only available in german / aktuell nur in Deutsch verfügbar)"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="NormView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="NormEdit"}%
