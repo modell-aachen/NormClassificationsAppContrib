@@ -1,8 +1,8 @@
-%META:TOPICINFO{author="BaseUserMapping_333" date="1429709240" format="1.1" version="1"}%
+%META:TOPICINFO{author="BaseUserMapping_333" date="1430386344" format="1.1" version="2"}%
 
 %META:FORM{name="ChapterForm"}%
 %META:FIELD{name="Number" attributes="M" title="Number" value="4.2"}%
-%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value=""}%
+%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value="Understanding the needs and expectations of interested parties"}%
 %META:FIELD{name="HeadingDE" attributes="" title="HeadingDE" value="Verstehen der Erfordernisse und Erwartungen interessierter Parteien"}%
 %META:FIELD{name="Relevant" attributes="" title="Relevant" value="yes"}%
 %META:FIELD{name="ReasonNonRelevant" attributes="" title="ReasonNonRelevant" value=""}%

@@ -1,8 +1,8 @@
-%META:TOPICINFO{author="BaseUserMapping_333" date="1429710379" format="1.1" version="1"}%
+%META:TOPICINFO{author="BaseUserMapping_333" date="1430387931" format="1.1" version="2"}%
 
 %META:FORM{name="ChapterForm"}%
 %META:FIELD{name="Number" attributes="M" title="Number" value="7.5.3"}%
-%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value=""}%
+%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value="Control of documented information"}%
 %META:FIELD{name="HeadingDE" attributes="" title="HeadingDE" value="Lenkung dokumentierter Information"}%
 %META:FIELD{name="Relevant" attributes="" title="Relevant" value="yes"}%
 %META:FIELD{name="ReasonNonRelevant" attributes="" title="ReasonNonRelevant" value=""}%

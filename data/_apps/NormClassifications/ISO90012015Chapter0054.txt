@@ -1,8 +1,8 @@
-%META:TOPICINFO{author="BaseUserMapping_333" date="1429711237" format="1.1" version="1"}%
+%META:TOPICINFO{author="BaseUserMapping_333" date="1430387464" format="1.1" version="2"}%
 
 %META:FORM{name="ChapterForm"}%
 %META:FIELD{name="Number" attributes="M" title="Number" value="8.6"}%
-%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value=""}%
+%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value="Release of products and services"}%
 %META:FIELD{name="HeadingDE" attributes="" title="HeadingDE" value="Freigabe von Produkten und Dienstleistungen"}%
 %META:FIELD{name="Relevant" attributes="" title="Relevant" value="yes"}%
 %META:FIELD{name="ReasonNonRelevant" attributes="" title="ReasonNonRelevant" value=""}%

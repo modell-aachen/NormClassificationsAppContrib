@@ -1,8 +1,8 @@
-%META:TOPICINFO{author="BaseUserMapping_333" date="1429709691" format="1.1" version="1"}%
+%META:TOPICINFO{author="BaseUserMapping_333" date="1430386575" format="1.1" version="2"}%
 
 %META:FORM{name="ChapterForm"}%
 %META:FIELD{name="Number" attributes="M" title="Number" value="6.1"}%
-%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value=""}%
+%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value="Actions to address risks and opportunities"}%
 %META:FIELD{name="HeadingDE" attributes="" title="HeadingDE" value="Maßnahmen zum Umgang mit Risiken und Chancen"}%
 %META:FIELD{name="Relevant" attributes="" title="Relevant" value="yes"}%
 %META:FIELD{name="ReasonNonRelevant" attributes="" title="ReasonNonRelevant" value=""}%

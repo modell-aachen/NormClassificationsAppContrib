@@ -1,8 +1,8 @@
-%META:TOPICINFO{author="BaseUserMapping_333" date="1429710458" format="1.1" version="1"}%
+%META:TOPICINFO{author="BaseUserMapping_333" date="1430387005" format="1.1" version="2"}%
 
 %META:FORM{name="ChapterForm"}%
 %META:FIELD{name="Number" attributes="M" title="Number" value="8.2.1"}%
-%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value=""}%
+%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value="Customer communication"}%
 %META:FIELD{name="HeadingDE" attributes="" title="HeadingDE" value="Kommunikation mit den Kunden"}%
 %META:FIELD{name="Relevant" attributes="" title="Relevant" value="yes"}%
 %META:FIELD{name="ReasonNonRelevant" attributes="" title="ReasonNonRelevant" value=""}%

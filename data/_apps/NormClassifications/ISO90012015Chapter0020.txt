@@ -1,8 +1,8 @@
-%META:TOPICINFO{author="BaseUserMapping_333" date="1429710003" format="1.1" version="1"}%
+%META:TOPICINFO{author="BaseUserMapping_333" date="1430386713" format="1.1" version="2"}%
 
 %META:FORM{name="ChapterForm"}%
 %META:FIELD{name="Number" attributes="M" title="Number" value="7.1.4"}%
-%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value=""}%
+%META:FIELD{name="HeadingEN" attributes="" title="HeadingEN" value="Environment for the operation of processes"}%
 %META:FIELD{name="HeadingDE" attributes="" title="HeadingDE" value="Umgebung zur Durchführung von Prozessen"}%
 %META:FIELD{name="Relevant" attributes="" title="Relevant" value="yes"}%
 %META:FIELD{name="ReasonNonRelevant" attributes="" title="ReasonNonRelevant" value=""}%
